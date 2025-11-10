@@ -376,10 +376,5 @@ import "./index.css";
 
 ## 👥 Autores
 
-**Universidad Compensar** - Diseño e Implementación de Software - 2025
+**Juan Camilo Gracia Martin**
 
----
-
-## 📄 Licencia
-
-Proyecto académico - Todos los derechos reservados
