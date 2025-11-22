@@ -23,7 +23,7 @@ export interface Alquiler {
 }
 export const alquileresApi = {
   registrar: async (d: RegistrarAlquilerDTO) =>
-    (await http.post<{ numero: string }>("/api/alquileres", d)).data,
+    (await http.post<{ numero: string; precioTotal: number }>("/api/alquileres", d)).data,
   obtener: async (n: string) =>
     (await http.get<Alquiler>(`/api/alquileres/${n}`)).data,
   listarPorFecha: async (fecha: string) =>
